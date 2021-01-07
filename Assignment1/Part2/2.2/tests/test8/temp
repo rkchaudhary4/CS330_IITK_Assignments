@@ -1,0 +1,59 @@
+9984  +++ exited with 0 +++
+9991  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9990  fstat(1,  <unfinished ...>
+9991  exit_group(0 <unfinished ...>
+9989  <... close resumed> )             = 0
+9991  <... exit_group resumed>)         = ?
+9990  <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+9989  write(1, "child (9989) is terminating.\n", 29 <unfinished ...>
+9988  <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+9991  +++ exited with 0 +++
+9990  close(1 <unfinished ...>
+9989  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9990  <... close resumed> )             = 0
+9989  exit_group(0 <unfinished ...>
+9990  write(1, "child (9990) is terminating.\n", 29 <unfinished ...>
+9988  close(1 <unfinished ...>
+9990  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9989  <... exit_group resumed>)         = ?
+9990  lseek(5, -19, SEEK_CUR <unfinished ...>
+9988  <... close resumed> )             = 0
+9990  <... lseek resumed> )             = 20
+9989  +++ exited with 0 +++
+9990  exit_group(0 <unfinished ...>
+9988  write(1, "child (9988) is terminating.\n", 29 <unfinished ...>
+9990  <... exit_group resumed>)         = ?
+9988  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9987  <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+9988  lseek(5, -19, SEEK_CUR <unfinished ...>
+9990  +++ exited with 0 +++
+9988  <... lseek resumed> )             = 20
+9987  close(1 <unfinished ...>
+9988  exit_group(0 <unfinished ...>
+9987  <... close resumed> )             = 0
+9988  <... exit_group resumed>)         = ?
+9987  write(1, "child (9987) is terminating.\n", 29 <unfinished ...>
+9986  <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+9987  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9988  +++ exited with 0 +++
+9987  exit_group(0 <unfinished ...>
+9986  close(1 <unfinished ...>
+9987  <... exit_group resumed>)         = ?
+9986  <... close resumed> )             = 0
+9985  <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+9986  write(1, "child (9986) is terminating.\n", 29 <unfinished ...>
+9987  +++ exited with 0 +++
+9986  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9985  close(1 <unfinished ...>
+9986  lseek(5, -19, SEEK_CUR <unfinished ...>
+9985  <... close resumed> )             = 0
+9986  <... lseek resumed> )             = 20
+9985  write(1, "child (9985) is terminating.\n", 29 <unfinished ...>
+9986  exit_group(0 <unfinished ...>
+9985  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+9986  <... exit_group resumed>)         = ?
+9985  lseek(4, -19, SEEK_CUR)           = 20
+9985  exit_group(0 <unfinished ...>
+9986  +++ exited with 0 +++
+9985  <... exit_group resumed>)         = ?
+9985  +++ exited with 0 +++

@@ -1,0 +1,16 @@
+become_debugger() = 0x0
+parent : setting breakpoint on fn_1: 0x100000DD4
+parent : Return value of set_breakpoint(fn_1): 0x0
+parent : calling wait_and_continue()
+child : calling fn_1
+parent : Return value of wait_and_continue(): 0x100000DD4
+parent : calling remove_breakpoint()
+parent : Returned from remove_breakpoint(fn_2): -0x1
+parent : calling wait_and_continue()
+Inside function 1
+child returned from fn_1
+Inside function 2
+Inside function 3
+child: Exiting
+parent : Return value of wait_and_continue(): 0x0
+

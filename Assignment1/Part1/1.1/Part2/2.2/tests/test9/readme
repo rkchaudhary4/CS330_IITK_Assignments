@@ -1,0 +1,23 @@
+To check whether children have exited, wait for 3 lines.
+This confirms that players in level 1 must have exited by now.
+If number of players < 7, OK
+else test case failed.
+
+Send ctrl+Z signal to process. Cross verify that process doesn't terminate on receving it.
+
+
+Whether they are using wait() for cleanup?
+Whether they are terminating players after every level?
+Whether they are terminating as well as cleaning zombie players after every level?
+
+
+OR 
+
+can we predecide when a child should exit and we see whether it is true or not.
+Eg: We make a player loose in first round.
+Then we check when this player exits.
+Eg: We make p7 loose in level1 and make p1 winner. Later we can check which exits first p1 or p7. If properly handled, then always p7 exits.
+If not properly handled, then, when pipe ends are severed, depending on which child is scheduled first, order of exit may vary. 
+
+
+Maybe check how much communication happens after p7 looses. If "write(GO)" happens, this means player has exited correctly.

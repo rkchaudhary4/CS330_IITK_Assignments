@@ -1,0 +1,8 @@
+7
+tests/test7/player1
+tests/test7/player2
+tests/test7/player1
+tests/test7/player1
+tests/test7/player2
+tests/test7/player1
+tests/test7/player1

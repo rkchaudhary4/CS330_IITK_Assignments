@@ -1,0 +1,6 @@
+fn_1 : 0x100000DC0
+fn_2 : 0x100000DA4
+Breakpoint hit at : 0x100000DC0
+In fn1
+Breakpoint hit at : 0x100000DA4
+In fn2

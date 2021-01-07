@@ -1,0 +1,2258 @@
+10002 execve("./umpire2", ["./umpire2", "tests/test9/players.txt"], 0x7ffddfc67d20 /* 72 vars */) = 0
+10002 brk(NULL)                         = 0x561f184d2000
+10002 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10002 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+10002 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+10002 fstat(3, {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10002 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc5d8690000
+10002 close(3)                          = 0
+10002 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10002 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+10002 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10002 fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10002 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5d868e000
+10002 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc5d8093000
+10002 mprotect(0x7fc5d827a000, 2097152, PROT_NONE) = 0
+10002 mmap(0x7fc5d847a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7fc5d847a000
+10002 mmap(0x7fc5d8480000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc5d8480000
+10002 close(3)                          = 0
+10002 arch_prctl(ARCH_SET_FS, 0x7fc5d868f4c0) = 0
+10002 mprotect(0x7fc5d847a000, 16384, PROT_READ) = 0
+10002 mprotect(0x561f181ba000, 4096, PROT_READ) = 0
+10002 mprotect(0x7fc5d86ab000, 4096, PROT_READ) = 0
+10002 munmap(0x7fc5d8690000, 106891)    = 0
+10002 openat(AT_FDCWD, "tests/test9/players.txt", O_RDONLY) = 3
+10002 read(3, "7", 1)                   = 1
+10002 read(3, "\n", 1)                  = 1
+10002 pipe([4, 5])                      = 0
+10002 pipe([6, 7])                      = 0
+10002 pipe([8, 9])                      = 0
+10002 pipe([10, 11])                    = 0
+10002 pipe([12, 13])                    = 0
+10002 pipe([14, 15])                    = 0
+10002 pipe([16, 17])                    = 0
+10002 pipe([18, 19])                    = 0
+10002 pipe([20, 21])                    = 0
+10002 pipe([22, 23])                    = 0
+10002 pipe([24, 25])                    = 0
+10002 pipe([26, 27])                    = 0
+10002 pipe([28, 29])                    = 0
+10002 pipe([30, 31])                    = 0
+10002 read(3, "t", 1)                   = 1
+10002 read(3, "e", 1)                   = 1
+10002 read(3, "s", 1)                   = 1
+10002 read(3, "t", 1)                   = 1
+10002 read(3, "s", 1)                   = 1
+10002 read(3, "/", 1)                   = 1
+10002 read(3, "t", 1)                   = 1
+10002 read(3, "e", 1)                   = 1
+10002 read(3, "s", 1)                   = 1
+10002 read(3, "t", 1)                   = 1
+10002 read(3, "9", 1)                   = 1
+10002 read(3, "/", 1)                   = 1
+10002 read(3, "p", 1)                   = 1
+10002 read(3, "l", 1)                   = 1
+10002 read(3, "a", 1)                   = 1
+10002 read(3, "y", 1)                   = 1
+10002 read(3, "e", 1)                   = 1
+10002 read(3, "r", 1)                   = 1
+10002 read(3, "1", 1)                   = 1
+10002 read(3, "\n", 1)                  = 1
+10002 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10003
+10002 close(6)                          = 0
+10003 close(7 <unfinished ...>
+10002 close(5 <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... close resumed> )             = 0
+10003 close(4 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10003 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10003 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "s", 1)        = 1
+10003 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10003 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10003 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "/", 1)        = 1
+10003 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10003 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10003 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10003 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10003 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "9", 1)        = 1
+10003 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "/", 1)        = 1
+10003 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "p", 1)        = 1
+10003 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "l", 1)        = 1
+10003 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "a", 1)        = 1
+10003 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "y", 1)        = 1
+10003 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10003 close(26 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "r", 1)        = 1
+10003 close(27 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = 0
+10002 <... read resumed> "2", 1)        = 1
+10003 close(26 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "\n", 1)       = 1
+10003 close(27 <unfinished ...>
+10002 clone( <unfinished ...>
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10003 close(30 <unfinished ...>
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10004
+10003 <... close resumed> )             = 0
+10002 close(10 <unfinished ...>
+10004 close(6 <unfinished ...>
+10002 <... close resumed> )             = 0
+10003 close(31 <unfinished ...>
+10002 close(9 <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... close resumed> )             = 0
+10003 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10004 close(7 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10003 close(30 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10004 close(6 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10003 close(31 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10004 close(7 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10004 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "/", 1)        = 1
+10004 close(8 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10004 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10004 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "s", 1)        = 1
+10004 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10004 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "9", 1)        = 1
+10004 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "/", 1)        = 1
+10004 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "p", 1)        = 1
+10004 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "l", 1)        = 1
+10004 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "a", 1)        = 1
+10004 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "y", 1)        = 1
+10004 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10004 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "r", 1)        = 1
+10004 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "1", 1)        = 1
+10004 close(26 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10002 <... read resumed> "\n", 1)       = 1
+10004 close(27 <unfinished ...>
+10002 clone( <unfinished ...>
+10004 <... close resumed> )             = 0
+10003 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10005
+10005 close(6 <unfinished ...>
+10002 close(14 <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... close resumed> )             = 0
+10005 close(7 <unfinished ...>
+10002 close(13 <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... close resumed> )             = 0
+10005 close(6 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10005 close(7 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10005 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10005 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10005 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10005 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "/", 1)        = 1
+10005 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10005 close(12 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10005 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "s", 1)        = 1
+10005 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10005 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "9", 1)        = 1
+10005 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "/", 1)        = 1
+10005 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "p", 1)        = 1
+10005 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "l", 1)        = 1
+10005 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "a", 1)        = 1
+10005 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "y", 1)        = 1
+10005 close(26 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10005 close(27 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = 0
+10002 <... read resumed> "r", 1)        = 1
+10005 close(26 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "1", 1)        = 1
+10005 close(27 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "\n", 1)       = 1
+10005 close(30 <unfinished ...>
+10002 clone( <unfinished ...>
+10005 <... close resumed> )             = 0
+10004 close(26 <unfinished ...>
+10005 close(31 <unfinished ...>
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10006
+10005 <... close resumed> )             = 0
+10002 close(18 <unfinished ...>
+10006 close(6 <unfinished ...>
+10002 <... close resumed> )             = 0
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 close(17 <unfinished ...>
+10006 close(7 <unfinished ...>
+10002 <... close resumed> )             = 0
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(6 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(7 <unfinished ...>
+10002 <... read resumed> "e", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(10 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(11 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(10 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(11 <unfinished ...>
+10002 <... read resumed> "/", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(14 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(15 <unfinished ...>
+10002 <... read resumed> "e", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(14 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(15 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(19 <unfinished ...>
+10002 <... read resumed> "9", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(16 <unfinished ...>
+10002 <... read resumed> "/", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(22 <unfinished ...>
+10002 <... read resumed> "p", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(23 <unfinished ...>
+10002 <... read resumed> "l", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(22 <unfinished ...>
+10002 <... read resumed> "a", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(23 <unfinished ...>
+10002 <... read resumed> "y", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(26 <unfinished ...>
+10002 <... read resumed> "e", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(27 <unfinished ...>
+10002 <... read resumed> "r", 1)        = 1
+10006 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 close(26 <unfinished ...>
+10002 <... read resumed> "2", 1)        = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(27 <unfinished ...>
+10002 <... read resumed> "\n", 1)       = 1
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 clone( <unfinished ...>
+10006 close(30 <unfinished ...>
+10005 close(30 <unfinished ...>
+10006 <... close resumed> )             = 0
+10006 close(31 <unfinished ...>
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10007
+10006 <... close resumed> )             = 0
+10002 close(22 <unfinished ...>
+10006 close(30 <unfinished ...>
+10002 <... close resumed> )             = 0
+10007 close(6 <unfinished ...>
+10002 close(21 <unfinished ...>
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... close resumed> )             = 0
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10006 close(31 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10007 close(7 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10006 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10006 dup2(18, 0 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10007 close(6 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10006 <... dup2 resumed> )              = 0
+10002 <... read resumed> "t", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(7 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(10 <unfinished ...>
+10002 <... read resumed> "/", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(11 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10007 close(10 <unfinished ...>
+10002 <... read resumed> "e", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(11 <unfinished ...>
+10002 <... read resumed> "s", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(14 <unfinished ...>
+10002 <... read resumed> "t", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(15 <unfinished ...>
+10002 <... read resumed> "9", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10007 close(14 <unfinished ...>
+10002 <... read resumed> "/", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(15 <unfinished ...>
+10002 <... read resumed> "p", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(18 <unfinished ...>
+10002 <... read resumed> "l", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(19 <unfinished ...>
+10002 <... read resumed> "a", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10007 close(18 <unfinished ...>
+10002 <... read resumed> "y", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(19 <unfinished ...>
+10002 <... read resumed> "e", 1)        = 1
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 read(3,  <unfinished ...>
+10007 close(23 <unfinished ...>
+10002 <... read resumed> "r", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10007 close(20 <unfinished ...>
+10002 <... read resumed> "1", 1)        = 1
+10007 <... close resumed> )             = 0
+10002 read(3,  <unfinished ...>
+10007 close(26 <unfinished ...>
+10002 <... read resumed> "\n", 1)       = 1
+10007 <... close resumed> )             = 0
+10002 clone( <unfinished ...>
+10007 close(27 <unfinished ...>
+10006 dup2(17, 1 <unfinished ...>
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10008
+10008 close(6 <unfinished ...>
+10002 close(26 <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... close resumed> )             = 0
+10008 close(7 <unfinished ...>
+10002 close(25 <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... close resumed> )             = 0
+10008 close(6 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10008 close(7 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10008 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10008 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "t", 1)        = 1
+10008 close(10 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10008 close(11 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "/", 1)        = 1
+10008 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10008 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "e", 1)        = 1
+10008 close(14 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "s", 1)        = 1
+10008 close(15 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "t", 1)        = 1
+10008 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "9", 1)        = 1
+10008 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "/", 1)        = 1
+10008 close(18 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "p", 1)        = 1
+10008 close(19 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "l", 1)        = 1
+10008 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "a", 1)        = 1
+10008 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "y", 1)        = 1
+10008 close(22 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "e", 1)        = 1
+10008 close(23 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... read resumed> "r", 1)        = 1
+10008 close(27 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "1", 1)        = 1
+10008 close(24 <unfinished ...>
+10002 read(3,  <unfinished ...>
+10008 <... close resumed> )             = 0
+10002 <... read resumed> "\n", 1)       = 1
+10008 close(30 <unfinished ...>
+10002 clone( <unfinished ...>
+10008 <... close resumed> )             = 0
+10007 <... close resumed> )             = 0
+10002 <... clone resumed> child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc5d868f790) = 10009
+10009 close(6 <unfinished ...>
+10002 close(30 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... close resumed> )             = 0
+10009 close(7 <unfinished ...>
+10002 close(29 <unfinished ...>
+10009 <... close resumed> )             = 0
+10002 <... close resumed> )             = 0
+10009 close(6 <unfinished ...>
+10002 fstat(1,  <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=0, ...}) = 0
+10009 close(7 <unfinished ...>
+10008 close(31 <unfinished ...>
+10002 brk(NULL <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... brk resumed> )               = 0x561f184d2000
+10009 close(10 <unfinished ...>
+10002 brk(0x561f184f3000 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... brk resumed> )               = 0x561f184f3000
+10009 close(11 <unfinished ...>
+10002 write(11, "GO\0", 3 <unfinished ...>
+10009 <... close resumed> )             = 0
+10002 <... write resumed> )             = 3
+10009 close(10 <unfinished ...>
+10002 write(15, "GO\0", 3 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10002 <... write resumed> )             = 3
+10009 close(11 <unfinished ...>
+10002 read(8,  <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 <... close resumed> )             = 0
+10009 close(14 <unfinished ...>
+10008 close(30 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 close(15 <unfinished ...>
+10008 close(31 <unfinished ...>
+10009 <... close resumed> )             = 0
+10008 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 close(14 <unfinished ...>
+10008 dup2(26, 0 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 <... dup2 resumed> )              = 0
+10009 close(15 <unfinished ...>
+10008 dup2(25, 1 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 <... dup2 resumed> )              = 1
+10009 close(18 <unfinished ...>
+10008 execve("tests/test9/player1", ["tests/test9/player1"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10007 close(26 <unfinished ...>
+10009 close(19 <unfinished ...>
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 <... close resumed> )             = 0
+10006 <... dup2 resumed> )              = 1
+10009 close(18 <unfinished ...>
+10007 close(27 <unfinished ...>
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 close(19 <unfinished ...>
+10008 <... execve resumed> )            = 0
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 brk(NULL <unfinished ...>
+10009 close(22 <unfinished ...>
+10008 <... brk resumed> )               = 0x56186a69d000
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10009 close(23 <unfinished ...>
+10008 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10009 <... close resumed> )             = 0
+10008 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10009 close(22 <unfinished ...>
+10008 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10009 close(23 <unfinished ...>
+10008 <... openat resumed> )            = 5
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 fstat(5,  <unfinished ...>
+10009 close(26 <unfinished ...>
+10008 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10009 close(27 <unfinished ...>
+10008 <... mmap resumed> )              = 0x7f76611fa000
+10009 <... close resumed> )             = 0
+10008 close(5 <unfinished ...>
+10009 close(26 <unfinished ...>
+10008 <... close resumed> )             = 0
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10009 close(27 <unfinished ...>
+10008 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10009 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10009 close(31 <unfinished ...>
+10008 <... openat resumed> )            = 5
+10009 <... close resumed> )             = 0
+10008 read(5,  <unfinished ...>
+10009 close(28 <unfinished ...>
+10008 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10009 <... close resumed> )             = 0
+10008 fstat(5,  <unfinished ...>
+10009 dup2(30, 0 <unfinished ...>
+10008 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10009 <... dup2 resumed> )              = 0
+10008 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10009 dup2(29, 1 <unfinished ...>
+10008 <... mmap resumed> )              = 0x7f76611f8000
+10009 <... dup2 resumed> )              = 1
+10008 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10009 execve("tests/test9/player1", ["tests/test9/player1"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10008 <... mmap resumed> )              = 0x7f7660bfd000
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10008 mprotect(0x7f7660de4000, 2097152, PROT_NONE <unfinished ...>
+10007 close(30 <unfinished ...>
+10008 <... mprotect resumed> )          = 0
+10008 mmap(0x7f7660fe4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10009 <... execve resumed> )            = 0
+10008 <... mmap resumed> )              = 0x7f7660fe4000
+10009 brk(NULL <unfinished ...>
+10008 mmap(0x7f7660fea000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10009 <... brk resumed> )               = 0x560a7e7cd000
+10008 <... mmap resumed> )              = 0x7f7660fea000
+10009 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10008 close(5 <unfinished ...>
+10009 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10008 <... close resumed> )             = 0
+10009 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10008 arch_prctl(ARCH_SET_FS, 0x7f76611f94c0 <unfinished ...>
+10009 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10008 <... arch_prctl resumed> )        = 0
+10009 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10007 <... close resumed> )             = 0
+10009 <... openat resumed> )            = 5
+10007 close(31 <unfinished ...>
+10009 fstat(5,  <unfinished ...>
+10007 <... close resumed> )             = 0
+10009 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10008 mprotect(0x7f7660fe4000, 16384, PROT_READ <unfinished ...>
+10009 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10008 <... mprotect resumed> )          = 0
+10009 <... mmap resumed> )              = 0x7feb0dbc3000
+10008 mprotect(0x5618696b3000, 4096, PROT_READ <unfinished ...>
+10009 close(5 <unfinished ...>
+10008 <... mprotect resumed> )          = 0
+10009 <... close resumed> )             = 0
+10008 mprotect(0x7f7661215000, 4096, PROT_READ <unfinished ...>
+10009 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10008 <... mprotect resumed> )          = 0
+10009 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10008 munmap(0x7f76611fa000, 106891 <unfinished ...>
+10009 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10008 <... munmap resumed> )            = 0
+10009 <... openat resumed> )            = 5
+10007 close(30 <unfinished ...>
+10009 read(5,  <unfinished ...>
+10008 getpid( <unfinished ...>
+10009 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10008 <... getpid resumed> )            = 10008
+10009 fstat(5,  <unfinished ...>
+10008 read(0,  <unfinished ...>
+10009 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10007 close(31 <unfinished ...>
+10009 <... mmap resumed> )              = 0x7feb0dbc1000
+10007 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10007 dup2(22, 0 <unfinished ...>
+10009 <... mmap resumed> )              = 0x7feb0d5c6000
+10007 <... dup2 resumed> )              = 0
+10009 mprotect(0x7feb0d7ad000, 2097152, PROT_NONE <unfinished ...>
+10007 dup2(21, 1 <unfinished ...>
+10009 <... mprotect resumed> )          = 0
+10007 <... dup2 resumed> )              = 1
+10009 mmap(0x7feb0d9ad000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10007 execve("tests/test9/player2", ["tests/test9/player2"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10009 <... mmap resumed> )              = 0x7feb0d9ad000
+10006 execve("tests/test9/player1", ["tests/test9/player1"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10009 mmap(0x7feb0d9b3000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 <... mmap resumed> )              = 0x7feb0d9b3000
+10005 close(31 <unfinished ...>
+10009 close(5)                          = 0
+10007 <... execve resumed> )            = 0
+10009 arch_prctl(ARCH_SET_FS, 0x7feb0dbc24c0 <unfinished ...>
+10005 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10009 <... arch_prctl resumed> )        = 0
+10007 brk(NULL <unfinished ...>
+10005 dup2(14, 0 <unfinished ...>
+10009 mprotect(0x7feb0d9ad000, 16384, PROT_READ <unfinished ...>
+10007 <... brk resumed> )               = 0x5607a357d000
+10009 <... mprotect resumed> )          = 0
+10007 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10009 mprotect(0x560a7e4d7000, 4096, PROT_READ <unfinished ...>
+10007 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10009 <... mprotect resumed> )          = 0
+10007 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10009 mprotect(0x7feb0dbde000, 4096, PROT_READ <unfinished ...>
+10007 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10009 <... mprotect resumed> )          = 0
+10007 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10009 munmap(0x7feb0dbc3000, 106891 <unfinished ...>
+10007 <... openat resumed> )            = 5
+10009 <... munmap resumed> )            = 0
+10007 fstat(5,  <unfinished ...>
+10009 getpid( <unfinished ...>
+10007 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10009 <... getpid resumed> )            = 10009
+10007 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10009 read(0,  <unfinished ...>
+10007 <... mmap resumed> )              = 0x7f81a35b7000
+10007 close(5 <unfinished ...>
+10006 <... execve resumed> )            = 0
+10007 <... close resumed> )             = 0
+10006 brk(NULL <unfinished ...>
+10007 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10006 <... brk resumed> )               = 0x55e4b1e3f000
+10007 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10006 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10007 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10006 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10007 <... openat resumed> )            = 5
+10006 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10007 read(5,  <unfinished ...>
+10006 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10007 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10006 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10007 fstat(5,  <unfinished ...>
+10006 <... openat resumed> )            = 5
+10007 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10006 fstat(5,  <unfinished ...>
+10007 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10006 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10007 <... mmap resumed> )              = 0x7f81a35b5000
+10006 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10007 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10006 <... mmap resumed> )              = 0x7f35b8b9f000
+10007 <... mmap resumed> )              = 0x7f81a2fba000
+10006 close(5 <unfinished ...>
+10007 mprotect(0x7f81a31a1000, 2097152, PROT_NONE <unfinished ...>
+10006 <... close resumed> )             = 0
+10007 <... mprotect resumed> )          = 0
+10006 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10007 mmap(0x7f81a33a1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10006 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10007 <... mmap resumed> )              = 0x7f81a33a1000
+10006 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10007 mmap(0x7f81a33a7000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10006 <... openat resumed> )            = 5
+10007 <... mmap resumed> )              = 0x7f81a33a7000
+10006 read(5,  <unfinished ...>
+10007 close(5 <unfinished ...>
+10006 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10007 <... close resumed> )             = 0
+10006 fstat(5,  <unfinished ...>
+10007 arch_prctl(ARCH_SET_FS, 0x7f81a35b64c0 <unfinished ...>
+10006 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10007 <... arch_prctl resumed> )        = 0
+10006 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10005 <... dup2 resumed> )              = 0
+10007 mprotect(0x7f81a33a1000, 16384, PROT_READ <unfinished ...>
+10006 <... mmap resumed> )              = 0x7f35b8b9d000
+10007 <... mprotect resumed> )          = 0
+10006 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10007 mprotect(0x5607a200c000, 4096, PROT_READ <unfinished ...>
+10006 <... mmap resumed> )              = 0x7f35b85a2000
+10007 <... mprotect resumed> )          = 0
+10006 mprotect(0x7f35b8789000, 2097152, PROT_NONE <unfinished ...>
+10007 mprotect(0x7f81a35d2000, 4096, PROT_READ <unfinished ...>
+10006 <... mprotect resumed> )          = 0
+10007 <... mprotect resumed> )          = 0
+10006 mmap(0x7f35b8989000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10007 munmap(0x7f81a35b7000, 106891 <unfinished ...>
+10006 <... mmap resumed> )              = 0x7f35b8989000
+10007 <... munmap resumed> )            = 0
+10006 mmap(0x7f35b898f000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10007 getpid( <unfinished ...>
+10006 <... mmap resumed> )              = 0x7f35b898f000
+10007 <... getpid resumed> )            = 10007
+10006 close(5 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10006 <... close resumed> )             = 0
+10005 dup2(13, 1 <unfinished ...>
+10006 arch_prctl(ARCH_SET_FS, 0x7f35b8b9e4c0 <unfinished ...>
+10005 <... dup2 resumed> )              = 1
+10006 <... arch_prctl resumed> )        = 0
+10005 execve("tests/test9/player1", ["tests/test9/player1"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10006 mprotect(0x7f35b8989000, 16384, PROT_READ <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10006 <... mprotect resumed> )          = 0
+10004 close(27 <unfinished ...>
+10006 mprotect(0x55e4b1109000, 4096, PROT_READ <unfinished ...>
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10006 <... mprotect resumed> )          = 0
+10004 close(30 <unfinished ...>
+10006 mprotect(0x7f35b8bba000, 4096, PROT_READ <unfinished ...>
+10005 <... execve resumed> )            = 0
+10006 <... mprotect resumed> )          = 0
+10005 brk(NULL <unfinished ...>
+10006 munmap(0x7f35b8b9f000, 106891 <unfinished ...>
+10005 <... brk resumed> )               = 0x55bbdc687000
+10006 <... munmap resumed> )            = 0
+10005 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10006 getpid( <unfinished ...>
+10005 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10006 <... getpid resumed> )            = 10006
+10005 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10006 read(0,  <unfinished ...>
+10005 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10004 <... close resumed> )             = 0
+10005 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10004 close(31 <unfinished ...>
+10005 <... openat resumed> )            = 5
+10004 <... close resumed> )             = 0
+10005 fstat(5,  <unfinished ...>
+10004 close(30 <unfinished ...>
+10005 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10005 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10004 close(31 <unfinished ...>
+10005 <... mmap resumed> )              = 0x7f2d25503000
+10004 <... close resumed> )             = -1 EBADF (Bad file descriptor)
+10005 close(5 <unfinished ...>
+10004 dup2(10, 0 <unfinished ...>
+10005 <... close resumed> )             = 0
+10004 <... dup2 resumed> )              = 0
+10005 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10004 dup2(9, 1 <unfinished ...>
+10005 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10004 <... dup2 resumed> )              = 1
+10005 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10004 execve("tests/test9/player2", ["tests/test9/player2"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10005 <... openat resumed> )            = 5
+10003 dup2(6, 0 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10003 <... dup2 resumed> )              = 0
+10005 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10003 dup2(5, 1 <unfinished ...>
+10005 fstat(5, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10004 <... execve resumed> )            = 0
+10005 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10004 brk(NULL <unfinished ...>
+10005 <... mmap resumed> )              = 0x7f2d25501000
+10004 <... brk resumed> )               = 0x5602dfbe9000
+10005 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10004 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10005 <... mmap resumed> )              = 0x7f2d24f06000
+10004 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10005 mprotect(0x7f2d250ed000, 2097152, PROT_NONE <unfinished ...>
+10004 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10005 <... mprotect resumed> )          = 0
+10004 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10005 mmap(0x7f2d252ed000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10004 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10005 <... mmap resumed> )              = 0x7f2d252ed000
+10004 <... openat resumed> )            = 5
+10005 mmap(0x7f2d252f3000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10004 fstat(5,  <unfinished ...>
+10005 <... mmap resumed> )              = 0x7f2d252f3000
+10004 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10005 close(5 <unfinished ...>
+10004 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+10005 <... close resumed> )             = 0
+10004 <... mmap resumed> )              = 0x7f7f89e3e000
+10005 arch_prctl(ARCH_SET_FS, 0x7f2d255024c0 <unfinished ...>
+10004 close(5 <unfinished ...>
+10005 <... arch_prctl resumed> )        = 0
+10004 <... close resumed> )             = 0
+10003 <... dup2 resumed> )              = 1
+10005 mprotect(0x7f2d252ed000, 16384, PROT_READ <unfinished ...>
+10004 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10005 <... mprotect resumed> )          = 0
+10004 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10005 mprotect(0x55bbdbede000, 4096, PROT_READ <unfinished ...>
+10004 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+10005 <... mprotect resumed> )          = 0
+10004 <... openat resumed> )            = 5
+10005 mprotect(0x7f2d2551e000, 4096, PROT_READ <unfinished ...>
+10004 read(5,  <unfinished ...>
+10005 <... mprotect resumed> )          = 0
+10004 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10005 munmap(0x7f2d25503000, 106891 <unfinished ...>
+10004 fstat(5,  <unfinished ...>
+10005 <... munmap resumed> )            = 0
+10004 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10005 getpid( <unfinished ...>
+10004 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10005 <... getpid resumed> )            = 10005
+10004 <... mmap resumed> )              = 0x7f7f89e3c000
+10005 read(0,  <unfinished ...>
+10004 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+10005 <... read resumed> "GO\0", 3)     = 3
+10004 <... mmap resumed> )              = 0x7f7f89841000
+10003 execve("tests/test9/player1", ["tests/test9/player1"], 0x7ffcdaab0980 /* 72 vars */ <unfinished ...>
+10005 brk(NULL <unfinished ...>
+10004 mprotect(0x7f7f89a28000, 2097152, PROT_NONE <unfinished ...>
+10005 <... brk resumed> )               = 0x55bbdc687000
+10004 <... mprotect resumed> )          = 0
+10005 brk(0x55bbdc6a8000 <unfinished ...>
+10004 mmap(0x7f7f89c28000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1e7000 <unfinished ...>
+10005 <... brk resumed> )               = 0x55bbdc6a8000
+10004 <... mmap resumed> )              = 0x7f7f89c28000
+10005 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+10004 mmap(0x7f7f89c2e000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7f89c2e000
+10003 <... execve resumed> )            = 0
+10005 <... openat resumed> )            = 5
+10004 close(5 <unfinished ...>
+10005 fstat(5,  <unfinished ...>
+10004 <... close resumed> )             = 0
+10005 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10004 arch_prctl(ARCH_SET_FS, 0x7f7f89e3d4c0 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10004 <... arch_prctl resumed> )        = 0
+10005 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10003 brk(NULL <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10004 mprotect(0x7f7f89c28000, 16384, PROT_READ <unfinished ...>
+10005 <... write resumed> )             = 1
+10004 <... mprotect resumed> )          = 0
+10005 read(0,  <unfinished ...>
+10004 mprotect(0x5602dea19000, 4096, PROT_READ <unfinished ...>
+10003 <... brk resumed> )               = 0x55acc8cb6000
+10004 <... mprotect resumed> )          = 0
+10003 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10004 mprotect(0x7f7f89e59000, 4096, PROT_READ <unfinished ...>
+10003 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10004 <... mprotect resumed> )          = 0
+10003 access("/etc/ld.so.preload", R_OK <unfinished ...>
+10004 munmap(0x7f7f89e3e000, 106891 <unfinished ...>
+10003 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10004 <... munmap resumed> )            = 0
+10003 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+10004 getpid( <unfinished ...>
+10003 <... openat resumed> )            = 4
+10004 <... getpid resumed> )            = 10004
+10003 fstat(4,  <unfinished ...>
+10004 read(0,  <unfinished ...>
+10003 <... fstat resumed> {st_mode=S_IFREG|0644, st_size=106891, ...}) = 0
+10004 <... read resumed> "GO\0", 3)     = 3
+10003 mmap(NULL, 106891, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fd43dfb7000
+10004 brk(NULL <unfinished ...>
+10003 close(4 <unfinished ...>
+10004 <... brk resumed> )               = 0x5602dfbe9000
+10003 <... close resumed> )             = 0
+10004 brk(0x5602dfc0a000 <unfinished ...>
+10003 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+10004 <... brk resumed> )               = 0x5602dfc0a000
+10003 <... access resumed> )            = -1 ENOENT (No such file or directory)
+10004 openat(AT_FDCWD, "./tests/test3/moves2.txt", O_RDONLY <unfinished ...>
+10003 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+10004 <... openat resumed> )            = 5
+10003 read(4,  <unfinished ...>
+10004 fstat(5,  <unfinished ...>
+10003 <... read resumed> "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+10004 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10003 fstat(4,  <unfinished ...>
+10004 read(5,  <unfinished ...>
+10003 <... fstat resumed> {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+10004 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n1\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10003 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+10004 write(1, "0", 1 <unfinished ...>
+10003 <... mmap resumed> )              = 0x7fd43dfb5000
+10002 <... read resumed> "0", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10003 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0 <unfinished ...>
+10002 write(19, "GO\0", 3 <unfinished ...>
+10003 <... mmap resumed> )              = 0x7fd43d9ba000
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 mprotect(0x7fd43dba1000, 2097152, PROT_NONE <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10006 brk(NULL <unfinished ...>
+10007 brk(NULL <unfinished ...>
+10006 <... brk resumed> )               = 0x55e4b1e3f000
+10007 <... brk resumed> )               = 0x5607a357d000
+10006 brk(0x55e4b1e60000 <unfinished ...>
+10007 brk(0x5607a359e000 <unfinished ...>
+10006 <... brk resumed> )               = 0x55e4b1e60000
+10007 <... brk resumed> )               = 0x5607a359e000
+10006 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+10007 openat(AT_FDCWD, "./tests/test3/moves2.txt", O_RDONLY <unfinished ...>
+10003 <... mprotect resumed> )          = 0
+10006 <... openat resumed> )            = 5
+10003 mmap(0x7fd43dda1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1e7000 <unfinished ...>
+10007 <... openat resumed> )            = 5
+10006 fstat(5,  <unfinished ...>
+10007 fstat(5,  <unfinished ...>
+10006 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10007 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10006 read(5,  <unfinished ...>
+10007 read(5,  <unfinished ...>
+10006 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10007 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n1\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10006 write(1, "0", 1 <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10003 <... mmap resumed> )              = 0x7fd43dda1000
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10008 brk(NULL <unfinished ...>
+10009 brk(NULL <unfinished ...>
+10008 <... brk resumed> )               = 0x56186a69d000
+10009 <... brk resumed> )               = 0x560a7e7cd000
+10008 brk(0x56186a6be000 <unfinished ...>
+10009 brk(0x560a7e7ee000 <unfinished ...>
+10008 <... brk resumed> )               = 0x56186a6be000
+10009 <... brk resumed> )               = 0x560a7e7ee000
+10008 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+10009 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY <unfinished ...>
+10003 mmap(0x7fd43dda7000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd43dda7000
+10008 <... openat resumed> )            = 5
+10009 <... openat resumed> )            = 5
+10008 fstat(5,  <unfinished ...>
+10009 fstat(5,  <unfinished ...>
+10008 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10009 <... fstat resumed> {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10008 read(5,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10008 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10009 <... read resumed> "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10008 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10008 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10009 write(1, "0", 1 <unfinished ...>
+10002 read(28,  <unfinished ...>
+10009 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10009 read(0,  <unfinished ...>
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10008 <... write resumed> )             = 1
+10002 <... read resumed> "1", 2)        = 1
+10009 write(1, "1", 1 <unfinished ...>
+10002 read(28,  <unfinished ...>
+10008 read(0,  <unfinished ...>
+10003 close(4 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10008 <... write resumed> )             = 1
+10002 <... read resumed> "1", 2)        = 1
+10009 write(1, "1", 1 <unfinished ...>
+10002 read(28,  <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(11, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10004 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10004 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(8,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10004 <... write resumed> )             = 1
+10002 write(19, "GO\0", 3 <unfinished ...>
+10004 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10006 <... read resumed> "GO\0", 3)     = 3
+10002 write(23, "GO\0", 3 <unfinished ...>
+10006 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 read(16,  <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(20,  <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10006 <... write resumed> )             = 1
+10002 write(27, "GO\0", 3 <unfinished ...>
+10006 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10008 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10008 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(24,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10008 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10008 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... close resumed> )             = 0
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 arch_prctl(ARCH_SET_FS, 0x7fd43dfb64c0 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10003 <... arch_prctl resumed> )        = 0
+10005 <... write resumed> )             = 1
+10005 read(0,  <unfinished ...>
+10003 mprotect(0x7fd43dda1000, 16384, PROT_READ) = 0
+10003 mprotect(0x55acc70cf000, 4096, PROT_READ) = 0
+10003 mprotect(0x7fd43dfd2000, 4096, PROT_READ) = 0
+10003 munmap(0x7fd43dfb7000, 106891)    = 0
+10003 getpid()                          = 10003
+10003 read(0, "GO\0", 3)                = 3
+10003 brk(NULL)                         = 0x55acc8cb6000
+10003 brk(0x55acc8cd7000)               = 0x55acc8cd7000
+10003 openat(AT_FDCWD, "./tests/test3/moves1.txt", O_RDONLY) = 4
+10003 fstat(4, {st_mode=S_IFREG|0777, st_size=39, ...}) = 0
+10003 read(4, "0\n1\n2\n0\n1\n2\n0\n1\n2\n2\n0\n1\n2\n0\n1\n2\n"..., 4096) = 39
+10003 write(1, "0", 1)                  = 1
+10002 <... read resumed> "0", 2)        = 1
+10003 read(0,  <unfinished ...>
+10002 read(12, "0", 2)                  = 1
+10002 write(23, "GO\0", 3)              = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10007 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10009 write(1, "0", 1 <unfinished ...>
+10002 read(28,  <unfinished ...>
+10009 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10007 read(0,  <unfinished ...>
+10002 write(7, "GO\0", 3 <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10007 <... write resumed> )             = 1
+10002 <... read resumed> "1", 2)        = 1
+10009 read(0,  <unfinished ...>
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10009 read(0,  <unfinished ...>
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "0", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "1", 1 <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 read(12,  <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10003 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10007 <... write resumed> )             = 1
+10002 write(7, "GO\0", 3 <unfinished ...>
+10007 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10003 <... read resumed> "GO\0", 3)     = 3
+10002 write(15, "GO\0", 3 <unfinished ...>
+10003 write(1, "2", 1 <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 read(4,  <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... read resumed> "2", 2)        = 1
+10005 <... read resumed> "", 4096)      = 0
+10002 read(12,  <unfinished ...>
+10005 write(1, "2", 1 <unfinished ...>
+10003 <... write resumed> )             = 1
+10002 <... read resumed> "2", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(23, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10007 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(20,  <unfinished ...>
+10007 <... read resumed> "", 4096)      = 0
+10009 read(5,  <unfinished ...>
+10007 write(1, "1", 1 <unfinished ...>
+10003 read(0,  <unfinished ...>
+10002 <... read resumed> "1", 2)        = 1
+10009 <... read resumed> "", 4096)      = 0
+10002 read(28,  <unfinished ...>
+10009 write(1, "2", 1 <unfinished ...>
+10007 <... write resumed> )             = 1
+10002 <... read resumed> "2", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10007 read(0,  <unfinished ...>
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 read(5,  <unfinished ...>
+10009 <... read resumed> "", 4096)      = 0
+10005 <... read resumed> "", 4096)      = 0
+10009 write(1, "0", 1 <unfinished ...>
+10005 write(1, "0", 1 <unfinished ...>
+10009 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10009 read(0,  <unfinished ...>
+10002 read(28,  <unfinished ...>
+10005 <... write resumed> )             = 1
+10002 <... read resumed> "0", 2)        = 1
+10005 read(0,  <unfinished ...>
+10002 write(15, "GO\0", 3)              = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 write(15, "GO\0", 3 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10005 <... read resumed> "GO\0", 3)     = 3
+10002 write(31, "GO\0", 3 <unfinished ...>
+10005 read(5,  <unfinished ...>
+10002 <... write resumed> )             = 3
+10009 <... read resumed> "GO\0", 3)     = 3
+10002 read(12,  <unfinished ...>
+10009 read(5,  <unfinished ...>
+10005 <... read resumed> "", 4096)      = 0
+10009 <... read resumed> "", 4096)      = 0
+10005 write(1, "0", 1 <unfinished ...>
+10009 write(1, "0", 1 <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10009 <... write resumed> )             = 1
+10002 read(28,  <unfinished ...>
+10009 read(0,  <unfinished ...>
+10002 <... read resumed> "0", 2)        = 1
+10005 <... write resumed> )             = 1
+10002 close(7 <unfinished ...>
+10005 read(0,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10003 <... read resumed> "", 3)         = 0
+10002 close(4 <unfinished ...>
+10003 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10003 <... getpid resumed> )            = 10003
+10002 close(11 <unfinished ...>
+10003 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10004 <... read resumed> "", 3)         = 0
+10002 close(8 <unfinished ...>
+10004 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10004 <... getpid resumed> )            = 10004
+10002 close(15 <unfinished ...>
+10004 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10005 <... read resumed> "", 3)         = 0
+10002 close(12 <unfinished ...>
+10005 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10005 <... getpid resumed> )            = 10005
+10002 close(19 <unfinished ...>
+10005 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10006 <... read resumed> "", 3)         = 0
+10002 close(16 <unfinished ...>
+10006 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10006 <... getpid resumed> )            = 10006
+10002 close(23 <unfinished ...>
+10006 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10007 <... read resumed> "", 3)         = 0
+10002 close(20 <unfinished ...>
+10007 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10007 <... getpid resumed> )            = 10007
+10002 close(27 <unfinished ...>
+10007 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10008 <... read resumed> "", 3)         = 0
+10002 close(24 <unfinished ...>
+10008 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10008 <... getpid resumed> )            = 10008
+10002 close(31 <unfinished ...>
+10008 fstat(1,  <unfinished ...>
+10002 <... close resumed> )             = 0
+10009 <... read resumed> "", 3)         = 0
+10002 close(28 <unfinished ...>
+10009 getpid( <unfinished ...>
+10002 <... close resumed> )             = 0
+10009 <... getpid resumed> )            = 10009
+10002 write(1, "p0 p1 p2 p3 p4 p5 p6\np0 p2 p4 p6"..., 41 <unfinished ...>
+10009 fstat(1,  <unfinished ...>
+10008 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10002 <... write resumed> )             = 41
+10009 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10002 exit_group(0 <unfinished ...>
+10009 close(1 <unfinished ...>
+10002 <... exit_group resumed>)         = ?
+10009 <... close resumed> )             = 0
+10008 close(1 <unfinished ...>
+10009 write(1, "child (10009) is terminating.\n", 30 <unfinished ...>
+10002 +++ exited with 0 +++
+10009 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10008 <... close resumed> )             = 0
+10009 exit_group(0 <unfinished ...>
+10008 write(1, "child (10008) is terminating.\n", 30 <unfinished ...>
+10009 <... exit_group resumed>)         = ?
+10008 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10007 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10008 lseek(5, -19, SEEK_CUR <unfinished ...>
+10009 +++ exited with 0 +++
+10008 <... lseek resumed> )             = 20
+10007 close(1 <unfinished ...>
+10008 exit_group(0 <unfinished ...>
+10007 <... close resumed> )             = 0
+10008 <... exit_group resumed>)         = ?
+10007 write(1, "child (10007) is terminating.\n", 30 <unfinished ...>
+10006 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10007 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10008 +++ exited with 0 +++
+10007 exit_group(0 <unfinished ...>
+10006 close(1 <unfinished ...>
+10007 <... exit_group resumed>)         = ?
+10006 <... close resumed> )             = 0
+10005 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10006 write(1, "child (10006) is terminating.\n", 30 <unfinished ...>
+10007 +++ exited with 0 +++
+10006 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10005 close(1 <unfinished ...>
+10006 lseek(5, -19, SEEK_CUR <unfinished ...>
+10004 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10006 <... lseek resumed> )             = 20
+10005 <... close resumed> )             = 0
+10004 close(1 <unfinished ...>
+10006 exit_group(0 <unfinished ...>
+10005 write(1, "child (10005) is terminating.\n", 30 <unfinished ...>
+10004 <... close resumed> )             = 0
+10006 <... exit_group resumed>)         = ?
+10005 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10004 write(1, "child (10004) is terminating.\n", 30 <unfinished ...>
+10005 exit_group(0 <unfinished ...>
+10006 +++ exited with 0 +++
+10005 <... exit_group resumed>)         = ?
+10004 <... write resumed> )             = -1 EBADF (Bad file descriptor)
+10003 <... fstat resumed> {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+10004 lseek(5, -19, SEEK_CUR <unfinished ...>
+10005 +++ exited with 0 +++
+10004 <... lseek resumed> )             = 20
+10003 close(1 <unfinished ...>
+10004 exit_group(0 <unfinished ...>
+10003 <... close resumed> )             = 0
+10004 <... exit_group resumed>)         = ?
+10003 write(1, "child (10003) is terminating.\n", 30) = -1 EBADF (Bad file descriptor)
+10004 +++ exited with 0 +++
+10003 lseek(4, -19, SEEK_CUR)           = 20
+10003 exit_group(0)                     = ?
+10003 +++ exited with 0 +++

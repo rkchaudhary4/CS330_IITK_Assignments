@@ -1,0 +1,4 @@
+3
+tests/test3/player1
+tests/test3/player2
+tests/test3/player3

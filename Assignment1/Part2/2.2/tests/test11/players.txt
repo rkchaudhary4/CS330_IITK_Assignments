@@ -1,0 +1,3 @@
+2
+tests/test11/player1
+tests/test11/player2

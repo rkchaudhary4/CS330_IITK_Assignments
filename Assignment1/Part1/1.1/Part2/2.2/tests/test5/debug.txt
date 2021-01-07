@@ -1,0 +1,19 @@
+I am the parent process.
+Opened tests/test5/players.txt
+readline(): 2
+numRounds: 10, filenameIndex: 1, totalPlayers: 2
+readline(): tests/test5/player1
+Name of player 0: tests/test5/player1
+readline(): dummyProg
+Name of player 1: dummyProg
+I child process with logicalPID: 0 will exec: tests/test5/player1
+I child process with logicalPID: 1 will exec: dummyProg
+I child process with logicalPID: 1 failed to exec: dummyProg
+player [logicalID: 0, name: tests/test5/player1] exec'd successfuly
+player [logicalID: 1, name: dummyProg] failed to exec
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+No more children. Parent can exit now.

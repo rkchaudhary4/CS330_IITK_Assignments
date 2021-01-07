@@ -1,0 +1,13 @@
+Address fn_1: 0x100000DDC
+Address fn_2: 0x100000DC0
+Address fn_3: 0x100000DA4
+Breakpoint occurred at address: 0x100000DDC
+In fn1
+In fn2
+Breakpoint occurred at address: 0x100000DA4
+In fn3
+Breakpoint occurred at address: 0x100000DC0
+In fn2
+Child exited.
+Parent exited.
+

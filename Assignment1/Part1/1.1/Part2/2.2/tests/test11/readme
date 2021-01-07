@@ -1,0 +1,37 @@
+Case: Moves are read in alternative manner i.e. not read in one go.
+
+Isolate a match.
+Identify reads (fd == 1) (But this depends upon implementation i.e. who is reading moves, umpire or some child of umpire?)
+Make sure reads are made alternatively for both players.
+
+
+OR
+
+Use strace on umpire. (But this depends upon implementation i.e. who is sending GO messages, umpire or some child of umpire?)
+Find strings containing GO message.
+
+Eg: grep GO stracefile
+write(11, "GO\0", 3)                    = 3
+write(17, "GO\0", 3)                    = 3
+write(23, "GO\0", 3)                    = 3
+write(29, "GO\0", 3)                    = 3
+write(35, "GO\0", 3)                    = 3
+write(41, "GO\0", 3)                    = 3
+write(11, "GO\0", 3)                    = 3
+write(17, "GO\0", 3)                    = 3
+write(23, "GO\0", 3)                    = 3
+write(29, "GO\0", 3)                    = 3
+write(35, "GO\0", 3)                    = 3
+write(41, "GO\0", 3)                    = 3
+
+
+OR 
+
+check manually! :P
+
+OR
+
+can we reduce it to a simple problem that no 2 consecutive writes happen to same fd?
+	In case of umpire sending GO message, this will detect the error.
+	In case of child of umpire sending GO message, it is possible that scheduling is such that only one write of GO is done by child umpire, then, process is switched. (Seems rare)
+	(This issue can be fixed by conducting only one match.)

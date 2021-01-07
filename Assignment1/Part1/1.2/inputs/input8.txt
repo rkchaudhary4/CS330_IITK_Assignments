@@ -1,0 +1,40 @@
+ls
+ls
+ls
+ls
+ls
+ps
+ps
+ps
+ps
+ps
+grep
+grep
+grep
+grep -a
+grep -b
+echo -a
+echo -b
+echo -c
+echo -d
+echo -e
+ls
+ls
+ls
+ls
+ls
+ps
+ps
+ps
+ps
+ps
+grep
+grep
+grep
+grep -a
+grep -b
+echo -a
+echo -b
+echo -c
+echo -d
+echo -e

@@ -1,0 +1,46 @@
+I am the parent process.
+Opened tests/test6/players.txt
+readline(): 7
+numRounds: 10, filenameIndex: 1, totalPlayers: 7
+readline(): tests/test6/player1
+Name of player 0: tests/test6/player1
+readline(): tests/test6/player2
+Name of player 1: tests/test6/player2
+readline(): dummy
+Name of player 2: dummy
+readline(): tests/test6/player1
+Name of player 3: tests/test6/player1
+readline(): tests/test6/player2
+Name of player 4: tests/test6/player2
+readline(): dummy
+Name of player 5: dummy
+readline(): tests/test6/player2
+Name of player 6: tests/test6/player2
+I child process with logicalPID: 0 will exec: tests/test6/player1
+I child process with logicalPID: 2 will exec: dummy
+I child process with logicalPID: 2 failed to exec: dummy
+I child process with logicalPID: 1 will exec: tests/test6/player2
+I child process with logicalPID: 4 will exec: tests/test6/player2
+I child process with logicalPID: 5 will exec: dummy
+I child process with logicalPID: 5 failed to exec: dummy
+player [logicalID: 0, name: tests/test6/player1] exec'd successfuly
+player [logicalID: 1, name: tests/test6/player2] exec'd successfuly
+I child process with logicalPID: 3 will exec: tests/test6/player1
+player [logicalID: 2, name: dummy] failed to exec
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+I child process with logicalPID: 6 will exec: tests/test6/player2
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+No more children. Parent can exit now.

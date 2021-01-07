@@ -1,0 +1,28 @@
+User space: main() addr:0x100000E09
+User space: fn() addr:0x100000DA4
+wait_and_continue() =  0x100000DA4
+Registers:
+r15: 0x0
+r14: 0x0
+r13: 0x0
+r12: 0x0
+r11: 0x115088
+r10: 0x115088
+r9: 0x6666
+r8: 0x5555
+rbp: 0x7FFFFFFA8
+rdi: 0x1111
+rsi: 0x2222
+rdx: 0x3333
+rcx: 0x4444
+rbx: 0x115088
+rax: 0x0
+entry_rip: 0x100000DA4
+entry_cs: 0x23
+entry_rflags: 0x24E
+entry_rsp: 0x7FFFFFEB0
+entry_ss: 0x2B
+Inside child_fn3.
+Args of child_fn3: a: 0x1111, b: 0x2222, c: 0x3333, d: 0x4444, e: 0x5555, f: 0x6666
+Child returned from fn call. Exiting now.
+wait_and_continue() = 0x0

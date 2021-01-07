@@ -1,0 +1,612 @@
+I am the parent process.
+Opened tests/test12/players.txt
+readline(): 7
+numRounds: 10, filenameIndex: 1, totalPlayers: 7
+readline(): player1
+Name of player 0: player1
+readline(): player2
+Name of player 1: player2
+readline(): player1
+Name of player 2: player1
+readline(): player1
+Name of player 3: player1
+readline(): player2
+Name of player 4: player2
+readline(): player1
+Name of player 5: player1
+readline(): player1
+Name of player 6: player1
+I child process with logicalPID: 0 will exec: player1
+I child process with logicalPID: 1 will exec: player2
+I child process with logicalPID: 2 will exec: player1
+I child process with logicalPID: 5 will exec: player1
+I child process with logicalPID: 6 will exec: player1
+I child process with logicalPID: 4 will exec: player2
+player [logicalID: 0, name: player1] exec'd successfuly
+player [logicalID: 1, name: player2] exec'd successfuly
+player [logicalID: 2, name: player1] exec'd successfuly
+I child process with logicalPID: 3 will exec: player1
+player [logicalID: 3, name: player1] exec'd successfuly
+player [logicalID: 4, name: player2] exec'd successfuly
+player [logicalID: 5, name: player1] exec'd successfuly
+player [logicalID: 6, name: player1] exec'd successfuly
+
+
+New level of the tournament starting. numActivePlayers: 7
+
+Players participating in current level: 
+Player0 got walkthrough
+========================================
+Round: 1
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player2's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 1
+Player4's score: 0
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 1
+Player2's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 2
+Player4's score: 0
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 3
+Player4's score: 0
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 2
+Player2's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 4
+Player4's score: 0
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 2
+Player2's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 5
+Player4's score: 0
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player1's score: 2
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 5
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 3
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 5
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 2
+Player6's score: 0
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player1's score: 3
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 6
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player5's score: 2
+Player6's score: 1
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 4
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 6
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 2
+Player6's score: 1
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 5
+Player2's score: 2
+--------------------------------
+Winner: process1
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 6
+Player4's score: 1
+--------------------------------
+Winner: process3
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 3
+Player6's score: 1
+--------------------------------
+Winner: process5
+
+
+New level of the tournament starting. numActivePlayers: 4
+
+Players participating in current level: 
+========================================
+Round: 1
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 1
+Player1's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 0
+Player5's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 0
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 0
+Player5's score: 0
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 1
+Player1's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 0
+Player5's score: 1
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 1
+Player5's score: 1
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 1
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 1
+Player5's score: 2
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 2
+Player5's score: 2
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 3
+Player5's score: 2
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 2
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 3
+Player5's score: 2
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 3
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 3
+Player5's score: 2
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 4
+Player1's score: 2
+--------------------------------
+Winner: process0
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 4
+Player5's score: 2
+--------------------------------
+Winner: process3
+
+
+New level of the tournament starting. numActivePlayers: 2
+
+Players participating in current level: 
+========================================
+Round: 1
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 0
+Player3's score: 1
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 0
+Player3's score: 1
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 1
+Player3's score: 1
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player3's score: 1
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player3's score: 1
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 2
+Player3's score: 1
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 2
+Player3's score: 1
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 2
+Player3's score: 1
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 2
+Player3's score: 1
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player0 and player3 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 2
+Player3's score: 1
+--------------------------------
+Winner: process0
+Winner of the tournament is: process0
+********** End of tournament **********
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+No more children. Parent can exit now.

@@ -1,0 +1,7 @@
+ls
+ps
+grep
+grep -a
+grep -b
+ls
+ps

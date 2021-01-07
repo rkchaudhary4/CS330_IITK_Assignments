@@ -1,0 +1,71 @@
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3)               = 3
+8626  write(1, "0", 1)                  = 1
+8625  write(1, "0", 1)                  = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "1", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8625  <... write resumed> )             = 1
+8626  write(1, "1", 1)                  = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "2", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "2", 1 <unfinished ...>
+8625  <... write resumed> )             = 1
+8626  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "0", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "0", 1 <unfinished ...>
+8625  <... write resumed> )             = 1
+8626  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "1", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "1", 1)                  = 1
+8625  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "2", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "2", 1 <unfinished ...>
+8625  <... write resumed> )             = 1
+8626  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "0", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "0", 1 <unfinished ...>
+8625  <... write resumed> )             = 1
+8626  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "1", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8626  write(1, "1", 1)                  = 1
+8625  <... write resumed> )             = 1
+8624  write(4, "GO\0", 3)               = 3
+8625  write(1, "2", 1 <unfinished ...>
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  <... write resumed> )             = 1
+8624  <... write resumed> )             = 3
+8626  write(1, "2", 1)                  = 1
+8624  write(4, "GO\0", 3)               = 3
+8624  write(8, "GO\0", 3 <unfinished ...>
+8625  write(1, "2", 1 <unfinished ...>
+8624  <... write resumed> )             = 3
+8625  <... write resumed> )             = 1
+8626  write(1, "1", 1)                  = 1
+8626  write(1, "child (8626) is terminating.\n", 29) = -1 EBADF (Bad file descriptor)
+8625  write(1, "child (8625) is terminating.\n", 29 <unfinished ...>
+8624  write(1, "1 0", 3 <unfinished ...>
+8626  +++ exited with 0 +++
+8625  <... write resumed> )             = -1 EBADF (Bad file descriptor)
+8624  <... write resumed> )             = 3
+8624  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8626, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8624  +++ exited with 0 +++
+8625  +++ exited with 0 +++
